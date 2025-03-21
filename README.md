@@ -1,5 +1,4 @@
-# NumPy
-Python Libraries
+# NumPy: Python Libraries
 
 Create a NumPy array of numbers from 1 to 10 and calculate the mean
 import numpy as np
@@ -12,7 +11,8 @@ mean_value = np.mean(array)
 
 print("Array:", array)
 print("Mean:", mean_value)
-2. Load a small dataset into a Pandas DataFrame and display summary statistics
+
+# Load a small dataset into a Pandas DataFrame and display summary statistics
 import pandas as pd
 
 # Create a small dataset
@@ -30,7 +30,8 @@ summary_statistics = df.describe()
 
 print("DataFrame:\n", df)
 print("\nSummary Statistics:\n", summary_statistics)
-3. Fetch data from a public API using requests and print a key piece of information
+
+# Fetch data from a public API using requests and print a key piece of information
 import requests
 
 # Fetch data from a public API
@@ -44,7 +45,9 @@ if response.status_code == 200:
     print("Current Bitcoin Price in USD:", bitcoin_price)
 else:
     print("Failed to fetch data from the API")
-4. Plot a simple line graph using Matplotlib
+
+    
+#  Plot a simple line graph using Matplotlib
 import matplotlib.pyplot as plt
 
 # List of numbers
